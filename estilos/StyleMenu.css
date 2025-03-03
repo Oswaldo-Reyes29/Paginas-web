@@ -1,0 +1,118 @@
+#Menu li{
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    font:bold 14px verdana, sans-serif;
+}
+#boton {
+    padding: 0;
+    text-align: right;
+    position:absolute;
+    top:39%;
+    left: 23%;
+    height: 70%;
+    width: 60%;
+}
+#boton li{
+    display: inline;
+    text-align: right;
+}
+#boton li a{
+    font-family: Arial;
+    font-size: 12px;
+    text-decoration: none;
+    float: left;
+    padding: 10px;
+    background-color: orange;
+    color: #fff;
+    text-align: right;
+}
+#boton li a:hover{
+    background-color: #2586d7;
+    margin-top:2px;
+    padding-bottom:12px;
+    text-align: right;
+}
+#menu2{
+    position:absolute;
+    top: 46%;
+    left: 22.5%;
+    height: 59%;
+    width: 10.5%;
+
+    background-color: #d9d9d9;
+    color: #454545;
+    border-radius:15px;
+
+}
+
+#menu2 li{
+    display: flex;
+    list-style:none;
+    padding: 8px;
+    font:bold 11px verdana,sans-serif;
+}
+#menuvertical li a{
+    text-decoration: none;
+    color: gray;
+}
+#menuvertical li a:hover{
+    background-color: white;
+    text-align: right;
+    margin-top: 6px;
+    padding-bottom: 5px;
+}
+#banner{
+    font: bold 32px b,sans-serif;
+    text-align: center;
+    color: pink;
+}
+#imagen{
+    position: absolute;
+    top: 46%;
+    left: 45%;
+    height: 100%;
+    width: auto;
+}
+#presenta{
+    position: absolute;
+    font: 11px verdana,sans-serif;
+    text-align: center;
+    color: yellow;
+    top: 78%;
+    left: 32.5%;
+    height: 13%;
+    width: 31%;
+    margin: 17%px;
+    padding: 37px;
+    background-color: gray;
+    border-radius:14px;
+    }
+#pie{
+    font: 12px verdana,sans-serif;
+    text-align: center;
+    color: green;
+}
+
+/* Estilos de los submenús */
+.submenu {
+    display: none;
+    position: relative;
+    top: 100%;
+    left: 0;
+    background-color: #d9d9d9;
+    min-width: 150px;
+  }
+
+  .submenu li {
+    display: block;
+  }
+
+  .submenu li a {
+    padding: 10px;
+    display: block;
+  }
+/* Mostrar el submenú cuando el padre se activa */
+li:hover > .submenu {
+    display: block;
+  }

@@ -1,0 +1,153 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f8f8f8;
+    text-align: center;
+}
+
+/* Menú lateral */
+.sidebar {
+    position:absolute;
+    left: -280px;
+    top: 0;
+    width: 280px;
+    height: 100%;
+    background: white;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: left 0.3s ease-in-out;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    padding: 10px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.sidebar ul li a:hover {
+    color: red;
+}
+
+/* Submenús */
+.submenu-items {
+    display: none;
+    padding-left: 20px;
+}
+
+.submenu a {
+    display:flex;
+    justify-content: space-between;
+}
+
+.submenu a span {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Mostrar menú activo */
+.sidebar.active {
+    left: 0;
+}
+
+/* Encabezado */
+.header {
+    background: red;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+}
+
+.logo img {
+    height: 30px;
+}
+
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Banner */
+.banner img {
+    width: 90%;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+/* Autenticación */
+.auth-options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+/* Interruptor */
+.switch {
+    position: relative;
+    width: 40px;
+    height: 20px;
+}
+
+.switch input {
+    display: none;
+}
+
+.slider {
+    position: absolute;
+    background: gray;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.switch input:checked + .slider {
+    background: red;
+}
+
+/* Botón */
+.btn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* Menú inferior */
+.bottom-menu {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: white;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+}
+
+.bottom-menu a {
+    text-decoration: none;
+    color: red;
+    font-size: 14px;
+}

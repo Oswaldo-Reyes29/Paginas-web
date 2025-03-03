@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta charset="iso-8859" />
+    <meta name="description" content="Ejemplo HTML5" />
+    <meta name="keywords" content="HTML5" , CSS3, JavaScript />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Diseño web Adaptable</title>
+    <script>
+      src = "modernizr.min.js";
+    </script>
+    <link rel="stylesheet" type="text/CSS" href="estilos/Colores.css" />
+    <link rel="stylesheet" type="text/CSS" href="estilos/base.css" />
+    <link
+      rel="stylesheet"
+      type="text/CSS"
+      href="estilos/grande.css"
+      media="screen and (min-width:981px)"
+    />
+    <link
+      rel="stylesheet"
+      type="text/CSS"
+      href="estilos/mediano.css"
+      media="screen and (min-width: 481px) and (max-width: 980px)"
+    />
+    <link
+      rel="stylesheet"
+      type="text/CSS"
+      href="estilos/mini.css"
+      media="screen and (max-width: 480px)"
+    />
+  </head>
+
+  <body>
+    <header>
+      <h1 class="grande">Display Grande</h1>
+      <h2 class="mediano">Display Mediano</h2>
+      <h3 class="mini">Display Pequeño</h3>
+    </header>
+
+    <div id="contenedor">
+      <nav id="principal">
+        <h2>Mi Menu</h2>
+        <ul class="menu grande mediano">
+          <li><a href="">Proyecto</a></li>
+          <li><a href="">Ejemplos</a></li>
+          <li><a href="">Practicas</a></li>
+        </ul>
+        <select class="mini">
+          <option>Proyecto</option>
+          <option>Ejemplos</option>
+          <option>Practicas</option>
+        </select>
+      </nav>
+
+      <section id="seccion_principal">
+        <h2>Mi Contenido</h2>
+        <article>
+          <h3><a href="">Articulo 1</a></h3>
+          <p class="grande mediano">Lo espectacular que veras hoy</p>
+        </article>
+        <article>
+          <h3><a href="">Articulo 2</a></h3>
+          <p class="grande mediano">Lo espectacular que veras hoy</p>
+        </article>
+        <article>
+          <h3><a href="">Articulo 3</a></h3>
+          <p class="grande mediano">Lo espectacular que veras hoy</p>
+        </article>
+      </section>
+    </div>
+
+    <footer>
+      <p>Derechos Reservados Copyright 2024-2025</p>
+      <select class="mini">
+        <option>Proyecto</option>
+        <option>Ejemplos</option>
+        <option>Practicas</option>
+      </select>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta charset="iso-8859" />
+    <meta name="description" content="Ejemplo HTML5" />
+    <meta name="keywords" content="HTML5" , CSS3, JavaScript />
+    <title>Registro de Usuarios</title>
+    <script src="moderniz.min.js"></script>
+    <link rel="stylesheet" href="estilos/estilosF.css" />
+  </head>
+
+  <body>
+    <fieldset id="registrousuario">
+      <form>
+        <legend>Registro de Nuevo Usuario</legend>
+        <label>Usuario:</label>
+        <input
+          type="text"
+          name="username"
+          class="texto"
+          size="20"
+          placeholder="Escribe Usuario"
+        />
+        <label>Contraseña:</label>
+        <input
+          type="password"
+          name="password"
+          class="texto"
+          size="20"
+          placeholder="Escribe Contraseña"
+        />
+        <label>Correo Electronico:</label>
+        <input
+          type="email"
+          name="correo"
+          class="texto"
+          size="20"
+          placeholder="Escribe Correo"
+        />
+        <label>Nombres:</label>
+        <input
+          type="text"
+          name="nombre"
+          class="texto"
+          size="20"
+          placeholder="Escribe Nombres"
+        />
+        <label>Apellidos:</label>
+        <input
+          type="text"
+          name="apellidos"
+          class="texto"
+          size="20"
+          placeholder="Escribe Apellidos"
+        />
+        <label>Direccion:</label>
+        <input
+          type="text"
+          name="direccion"
+          class="texto"
+          size="20"
+          placeholder="Escribe Direccion"
+        />
+        <label>Fecha de Nacimiento:</label>
+        <input
+          type="date"
+          name="fechaN"
+          class="texto"
+          size="20"
+          placeholder="Facha de Nacimiento"
+        />
+        <label>Comentarios:</label>
+        <textarea
+          type="areadetexto"
+          name="comentarios"
+          class="texto"
+          cols="5"
+          row="10"
+        ></textarea>
+        <input type="submit" name="enviar" class="botonenviar" value="Enviar" />
+      </form>
+    </fieldset>
+  </body>
+</html>

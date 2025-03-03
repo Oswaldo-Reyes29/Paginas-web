@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Banca en Línea</title>
+    <link rel="stylesheet" href="estilos/Banco.css" />
+    <script defer src="JS/banco.js"></script>
+  </head>
+  <body>
+    <!-- Menú lateral -->
+    <nav class="sidebar">
+      <ul>
+        <li><a href="#">🔍 Consulta de saldos</a></li>
+        <li class="submenu">
+          <a href="#" class="toggle">🔄 Transferencias <span>+</span></a>
+          <ul class="submenu-items">
+            <li><a href="#">Cuentas propias</a></li>
+            <li><a href="#">Transferencias rápidas</a></li>
+            <li><a href="#">Terceros mismo banco</a></li>
+            <li><a href="#">Otros bancos</a></li>
+          </ul>
+        </li>
+        <li><a href="#">💳 Pagos</a></li>
+        <li><a href="#">🏧 Retiro sin tarjeta</a></li>
+        <li><a href="#">📈 Inversiones</a></li>
+      </ul>
+    </nav>
+
+    <!-- Encabezado -->
+    <header class="header">
+      <div class="menu-icon">&#9776;</div>
+      <div class="logo">
+        <img src="logo.png" alt="Banco" />
+      </div>
+    </header>
+
+    <!-- Contenido principal -->
+    <main class="content">
+      <div class="banner">
+        <img src="promo.jpg" alt="Promoción" />
+      </div>
+
+      <h1>¡Hola, Bienvenido!</h1>
+
+      <div class="auth-options">
+        <label class="switch">
+          <input type="checkbox" />
+          <span class="slider"></span>
+        </label>
+        <p>No es mi cuenta</p>
+        <button class="btn">Continuar</button>
+      </div>
+    </main>
+
+    <!-- Menú inferior -->
+    <nav class="bottom-menu">
+      <a href="#">🏧 Retiro sin tarjeta</a>
+      <a href="#">🔄 Transferencia rápida</a>
+      <a href="#">📲 Recargas</a>
+      <a href="#">🔐 SuperToken</a>
+    </nav>
+  </body>
+</html>

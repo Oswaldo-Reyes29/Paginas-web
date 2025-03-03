@@ -1,0 +1,22 @@
+.grande{
+    display: inherit !important;
+}
+h1,h2{
+    text-align: center;
+}
+header,footer,#contenedor{
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+    max-width: 1500px;
+}
+#principal{
+    float: left;
+    width: 20%;
+    max-width: 300%;
+}
+#seccion_principal{
+    margin-left: 21%;
+    width: 79%;
+    max-width: 1200px;
+}
