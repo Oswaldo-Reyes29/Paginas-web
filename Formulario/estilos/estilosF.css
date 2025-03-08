@@ -1,5 +1,5 @@
 #registrousuario{
-    background: transparent url(/Imagenes/FORM2.jpg) no-repeat scroll left bottom;
+    background: transparent url(Imagenes/FORM2.jpg) no-repeat scroll left bottom;
     border: medium none;
     color: #990033;
     height: 775px;
@@ -9,7 +9,7 @@
     border-radius: 20px;
 }
 #registrousuario legend{
-    background: transparent url(/Imagenes/diego-ph-5LOhydOtTKU-unsplash.jpg) no-repeat scroll left top;
+    background: transparent url(Imagenes/diego-ph-5LOhydOtTKU-unsplash.jpg) no-repeat scroll left top;
     color: #6633CC;
     font-family: Arial;
     font-size: 21px;
@@ -20,7 +20,7 @@
     border-radius: 20px;
 }
 #registrousuario input.texto{
-    background: #FFFFFF url(/Imagenes/sebastian-svenson-d2w-_1LJioQ-unsplash.jpg) no-repeat scroll left top;
+    background: #FFFFFF url(Imagenes/sebastian-svenson-d2w-_1LJioQ-unsplash.jpg) no-repeat scroll left top;
     border: medium none !important;
     color: #666666;
     font-family: arial, sans-serif;
@@ -40,7 +40,7 @@
     padding: 10px 0 3px;
 }
 #registrousuario textarea.areadetexto{
-    background: #ffffff url(/Imagenes/sebastian-svenson-d2w-_1LJioQ-unsplash.jpg) no-repeat scroll top left;
+    background: #ffffff url(Imagenes/sebastian-svenson-d2w-_1LJioQ-unsplash.jpg) no-repeat scroll top left;
     color: #666666;
     font-family: arial,sans-serif;
     font-size: 12px;
@@ -53,7 +53,7 @@
     border-radius: 20px;
 }
 #registrousuario input.botonenviar{
-    background: transparent url(/Imagenes/francesco-ungaro-jqKS0ET-wGE-unsplash.jpg) no-repeat scroll lefT top;
+    background: transparent url(Imagenes/francesco-ungaro-jqKS0ET-wGE-unsplash.jpg) no-repeat scroll lefT top;
     color: #FFFFFF;
     display: block;
     float: left;
