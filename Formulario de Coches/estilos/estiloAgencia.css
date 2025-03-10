@@ -1,5 +1,5 @@
 #registrouser{
-    background: transparent url( ) no-repeat scroll left bottom;
+    background: transparent url( /Imagenes/diego-ph-5LOhydOtTKU-unsplash.jpg) no-repeat scroll left bottom;
     border: medium none;
     color: #333333;
     height: 665px;
@@ -48,7 +48,7 @@
     padding: 10px 0 3px;
 }
 #registrousuario input.botonenviar{
-    background: transparent url() no-repeat scroll lef top;
+    background: transparent url(/Imagenes/francesco-ungaro-jqKS0ET-wGE-unsplash.jpg) no-repeat scroll lef top;
     color: #ffffff;
     display: block;
     float: left;

@@ -1,0 +1,99 @@
+h1{
+    color:brown;
+    text-align: center;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+table{
+    border-collapse: collapse;
+    margin: auto;
+    
+}
+
+table th{
+    width: 10em;
+    height: 2em;
+}
+
+tr:nth-of-type(1)>th{
+    background-color: orange;
+}
+
+td[colspan]{
+    background-color: beige;
+    text-align: center;
+    font-weight: bold;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+td{
+    font-size: 16px;
+}
+
+th{
+    font-size: 20px;
+}
+
+tr:nth-of-type(2)>th,
+tr:nth-of-type(3)>th,
+tr:nth-of-type(4)>th,
+tr:nth-of-type(5)>th,
+tr:nth-of-type(6)>th,
+tr:nth-of-type(7)>th,
+tr:nth-of-type(8)>th{
+    background-color:yellow;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.Lengua{
+    background-color: rgb(206, 219, 219);
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.Matemáticas{
+    background-color: red;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.Física{
+    background-color: rgb(224, 93, 122);
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.Biología{
+    background-color: rgb(215, 0, 215);
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.Religión{
+    background-color: rgb(250, 5, 5);
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.Inglés{
+    background-color: rgb(140, 76, 76);
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.Francés{
+    background-color: rgb(42, 162, 42);
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.Educación{
+    background-color: gold;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(0, 72, 255);
+    text-align: center;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta charset="iso-8859-1" />
+    <meta name="description" content="Ejemplo HTML5" />
+    <meta name="keywords" content="HTML5" , CSS3, JavaScript />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <link rel="stylesheet" href="estilos/estilo.css" />
+    <title>Ejemplos de Tablas en HTML y CSS</title>
+  </head>
+
+  <body>
+    <h1>HORARIO DE CLASES</h1>
+    <table border="3">
+      <tr>
+        <!--tr: Sirve para hacer las filas-->
+        <th>Horas/Dias</th>
+        <th>Lunes</th>
+        <th>Martes</th>
+        <th>Miércoles</th>
+        <th>Jueves</th>
+        <th>Viernes</th>
+      </tr>
+
+      <tr>
+        <th>9:15 - 10:20</th>
+        <td class="Matemáticas">Matemáticas</td>
+        <td rowspan="2" class="Matemáticas">Matemáticas</td>
+        <td class="Inglés">Inglés</td>
+        <td rowspan="2" class="Biología">Biología</td>
+        <td class="Religión">Religión</td>
+      </tr>
+
+      <tr>
+        <th>10:20 - 11:10</th>
+        <td class="Física">Física</td>
+        <td class="Lengua">Lengua</td>
+        <td class="Matemáticas">Matemáticas</td>
+      </tr>
+
+      <tr>
+        <th>11:10 - 12:15</th>
+        <td class="Biología">Biología</td>
+        <td class="Física">Física</td>
+        <td class="Francés">Francés</td>
+        <td class="Inglés">Inglés</td>
+        <td class="Inglés">Inglés</td>
+      </tr>
+
+      <tr>
+        <th>12:15 - 12:50</th>
+        <td colspan="5">RECESO</td>
+      </tr>
+
+      <tr>
+        <th>12:50 - 01:45</th>
+        <td rowspan="2" class="Lengua">Lengua</td>
+        <td class="Matemáticas">Matemáticas</td>
+        <td class="Francés">Francés</td>
+        <td class="Educación">Educación</td>
+        <td class="Inglés">Inglés</td>
+      </tr>
+
+      <tr>
+        <th>01:45 - 02:40</th>
+        <td class="Física">Física</td>
+        <td class="Lengua">Lengua</td>
+        <td class="Francés">Francés</td>
+        <td class="Biología">Biología</td>
+      </tr>
+
+      <tr>
+        <th>02:40 - 03:35</th>
+        <td class="Religión">Religión</td>
+        <td class="Matemáticas">Matemáticas</td>
+        <td class="Inglés">Inglés</td>
+        <td class="Física">Física</td>
+        <td class="Francés">Francés</td>
+      </tr>
+    </table>
+
+    <footer>
+      <p>
+        <b>Derechos Reservados Copyright 2024-2025</b>
+      </p>
+    </footer>
+  </body>
+</html>

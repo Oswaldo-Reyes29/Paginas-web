@@ -1,10 +1,21 @@
+#menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: blue;
+}
 #Menu li{
     display: inline-block;
     list-style: none;
-    padding: 5px;
+    /*padding: 5px;*/
     font:bold 14px verdana, sans-serif;
 }
-#boton {
+#menu_lista{
+    display: flex;
+    background: orange;
+}
+/*#menu_lista {
     padding: 0;
     text-align: right;
     position:absolute;
@@ -12,12 +23,12 @@
     left: 23%;
     height: 70%;
     width: 60%;
-}
-#boton li{
+}*/
+#menu_lista li{
     display: inline;
     text-align: right;
 }
-#boton li a{
+#menu_lista li a{
     font-family: Arial;
     font-size: 12px;
     text-decoration: none;
@@ -26,8 +37,9 @@
     background-color: orange;
     color: #fff;
     text-align: right;
+    transition: all 0.7s ease;
 }
-#boton li a:hover{
+#menu_lista li a:hover{
     background-color: #2586d7;
     margin-top:2px;
     padding-bottom:12px;
@@ -66,10 +78,13 @@
     font: bold 32px b,sans-serif;
     text-align: center;
     color: pink;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
 }
 #imagen{
     position: absolute;
-    top: 46%;
+    top: 50%;
     left: 45%;
     height: 100%;
     width: auto;
@@ -81,7 +96,7 @@
     color: yellow;
     top: 78%;
     left: 32.5%;
-    height: 13%;
+    height: 15%;
     width: 31%;
     margin: 17%px;
     padding: 37px;
@@ -116,3 +131,24 @@
 li:hover > .submenu {
     display: block;
   }
+
+  @media (max-width: 800px) {
+    .header {
+        width: 100%;
+        flex-direction: column;
+    }
+    .header #banner {
+        width: 100%;
+    }
+    .header__left {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .main {
+        flex-direction: column;
+    }
+    #menuvertical {
+        display: flex;
+        flex-direction: row;
+    }}
