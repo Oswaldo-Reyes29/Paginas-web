@@ -1,25 +1,3 @@
-.header {
-    display: flex;
-}
-
-.header__left {
-    display: flex;
-    flex-direction: column;
-}
-
-#banner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
- 
-.header__title {
-    display: inline;
-    font: bold 32px broadway, san-serif;
-    text-align: center;
-    color: pink;
-} 
-
 #menu {
     display: flex;
     justify-content: center;
@@ -27,30 +5,31 @@
     height: 50px;
     background-color: blue;
 }
-
-#menu li {
+#Menu li{
     display: inline-block;
     list-style: none;
-    font: bold 14px verdana, sans-serif;
+    padding: 5px;
+    font:bold 14px verdana, sans-serif;
 }
-
-#menu ul {
-    list-style: none;
-    font: bold 14px verdana, sans-serif;
-}
-
-.menu__list {
+/*#menu_lista{
     display: flex;
     background: orange;
+}*/
+#menu_lista {
+    padding: 0;
+    text-align: right;
+    position:absolute;
+    top:39%;
+    left: 23%;
+    height: 70%;
+    width: 60%;
 }
-
-.menu__list li {
+#menu_lista li{
     display: inline;
     text-align: right;
 }
-
-.menu__list li a {
-    font-family: arial;
+#menu_lista li a{
+    font-family: Arial;
     font-size: 12px;
     text-decoration: none;
     float: left;
@@ -60,104 +39,116 @@
     text-align: right;
     transition: all 0.7s ease;
 }
-
-.menu__list li a:hover {
+#menu_lista li a:hover{
     background-color: #2586d7;
+    margin-top:2px;
+    padding-bottom:12px;
+    text-align: right;
 }
+#menu2{
+    position:absolute;
+    top: 46%;
+    left: 22.5%;
+    height: 59%;
+    width: 10.5%;
 
-.main {
-    display: flex;
-    width: 100%;
-}
-
-#menu2 {
-    display: flex;
-    flex-direction: column;
     background-color: #d9d9d9;
     color: #454545;
-    height: 100%;
+    border-radius:15px;
+
 }
 
-#menu2 li {
-    display: inline-block;
-    list-style: none;
-    width: 100%;
-    font: bold 11px verdana, sans-serif;
-    border-bottom: 1px solid #999999;
+#menu2 li{
+    display: flex;
+    list-style:none;
+    padding: 8px;
+    font:bold 11px verdana,sans-serif;
 }
-
-#menu2 ul {
-    list-style: none;
-    padding: 3px;
-    font: bold 11px verdana, sans-serif;
-}
-
-#menu2 li a {
-    display: block;
+#menuvertical li a{
     text-decoration: none;
     color: gray;
-    width: 100%;
-    padding: 5px;
 }
-
-#menu2 li:hover {
+#menuvertical li a:hover{
     background-color: white;
-    transition: all 0.3s ease;
+    text-align: right;
+    margin-top: 6px;
+    padding-bottom: 5px;
+} 
+#banner{
+    font: bold 32px b,sans-serif;
+    text-align: center;
+    color: pink;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
 }
-
-#imagen {
+#imagen{
+    position: absolute;
+    top: 50%;
+    left: 45%;
     height: 100%;
     width: auto;
 }
-
-#presenta {
-    font: 11px verdana, sans-serif;
+#presenta{
+    position: absolute;
+    font: 11px verdana,sans-serif;
     text-align: center;
     color: yellow;
-    margin: 17px;
+    top: 78%;
+    left: 32.5%;
+    height: 15%;
+    width: 31%;
+    margin: 17%px;
     padding: 37px;
     background-color: gray;
-    border-radius: 14px;
-}
-
-#pie {
-    width: 100%;
-    font: 14px verdana, sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    border-radius:14px;
+    }
+#pie{
+    font: 12px verdana,sans-serif;
+    text-align: center;
     color: green;
-
 }
 
-.content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+/* Estilos de los submenús */
+.submenu {
+    display: none;
+    position: relative;
+    top: 100%;
+    left: 0;
+    background-color: #d9d9d9;
+    min-width: 150px;
+  }
 
-@media (max-width: 800px) {
+  .submenu li {
+    display: block;
+  }
+
+  .submenu li a {
+    padding: 10px;
+    display: block;
+  }
+/* Mostrar el submenú cuando el padre se activa */
+li:hover > .submenu {
+    display: block;
+  }
+
+  @media (max-width: 800px) {
     .header {
         width: 100%;
         flex-direction: column;
     }
-
     .header #banner {
         width: 100%;
     }
-
     .header__left {
         width: 100%;
         flex-direction: row;
         justify-content: space-between;
     }
-
     .main {
         flex-direction: column;
     }
-
     #menuvertical {
         display: flex;
         flex-direction: row;
-    }
-}
+    }}
