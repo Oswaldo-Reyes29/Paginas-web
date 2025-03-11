@@ -1,0 +1,163 @@
+.header {
+    display: flex;
+}
+
+.header__left {
+    display: flex;
+    flex-direction: column;
+}
+
+#banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.header__title {
+    display: inline;
+    font: bold 32px broadway, san-serif;
+    text-align: center;
+    color: pink;
+} 
+
+#menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: blue;
+}
+
+#menu li {
+    display: inline-block;
+    list-style: none;
+    font: bold 14px verdana, sans-serif;
+}
+
+#menu ul {
+    list-style: none;
+    font: bold 14px verdana, sans-serif;
+}
+
+.menu__list {
+    display: flex;
+    background: orange;
+}
+
+.menu__list li {
+    display: inline;
+    text-align: right;
+}
+
+.menu__list li a {
+    font-family: arial;
+    font-size: 12px;
+    text-decoration: none;
+    float: left;
+    padding: 10px;
+    background-color: orange;
+    color: #fff;
+    text-align: right;
+    transition: all 0.7s ease;
+}
+
+.menu__list li a:hover {
+    background-color: #2586d7;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+}
+
+#menu2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #d9d9d9;
+    color: #454545;
+    height: 100%;
+}
+
+#menu2 li {
+    display: inline-block;
+    list-style: none;
+    width: 100%;
+    font: bold 11px verdana, sans-serif;
+    border-bottom: 1px solid #999999;
+}
+
+#menu2 ul {
+    list-style: none;
+    padding: 3px;
+    font: bold 11px verdana, sans-serif;
+}
+
+#menu2 li a {
+    display: block;
+    text-decoration: none;
+    color: gray;
+    width: 100%;
+    padding: 5px;
+}
+
+#menu2 li:hover {
+    background-color: white;
+    transition: all 0.3s ease;
+}
+
+#imagen {
+    height: 100%;
+    width: auto;
+}
+
+#presenta {
+    font: 11px verdana, sans-serif;
+    text-align: center;
+    color: yellow;
+    margin: 17px;
+    padding: 37px;
+    background-color: gray;
+    border-radius: 14px;
+}
+
+#pie {
+    width: 100%;
+    font: 14px verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: green;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 800px) {
+    .header {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .header #banner {
+        width: 100%;
+    }
+
+    .header__left {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+
+    #menuvertical {
+        display: flex;
+        flex-direction: row;
+    }
+}
