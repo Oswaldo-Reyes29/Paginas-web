@@ -14,7 +14,7 @@
     <fieldset id="registrouser">
       <form name="registro" action="PHP/insertarcoches.php" method="post">
         <legend>Registro de Coches</legend>
-        <label for="vehiculo">Seleccione marca del Vehiculo:</label>
+        <label for="vehiculo">Seleccione marca del Vehiculo:</label><br />
 
         <select name="marca">
           <option>BMW</option>
@@ -22,26 +22,30 @@
           <option>nissan</option>
           <option>Chrysler</option>
           <option>Volsvagen</option>
-          <option>Chevrolet</option>
-        </select>
+          <option>Chevrolet</option></select
+        ><br />
 
-        <label for="modelo">Indique el Modelo:</label>
-
+        <br /><label for="modelo">Indique el Modelo:</label>
         <input type="text" name="modelo" class="texto" size="45" />
-        <label for="color">Indique el Color: </label>
+        <br /><label for="color">Indique el Color: </label>
         <input type="text" name="color" class="texto" size="45" />
-        <label for="anio">Año de matriculacion:</label>
+        <br /><label for="anio">Año de matriculacion:</label>
         <input type="text" name="fecha" class="texto" size="45" />
-        <label for="radio">Combustible:</label>
-        <input type="radio" name="combustible" value="Diesel" checked />Diesel
-        <br />
+        <br /><label for="radio">Combustible:</label>
+        <input
+          type="radio"
+          name="combustible"
+          value="Diesel"
+          checked
+        />Diesel<br />
+
         <input
           type="radio"
           name="combustible"
           value="Gasolina"
           checked
         />Gasolina <br />
-        <label for="precio">Precio:</label>
+        <br /><label for="precio">Precio:</label>
         <input type="text" name="precio" class="texto" size="45" />
         <br />
         <input
