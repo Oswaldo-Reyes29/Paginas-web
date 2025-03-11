@@ -1,89 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta charset="iso-8859-1">
-    <meta name="description" content="Ejemplo HTML5">
-    <meta name="keywords" content="HTML5, CSS3, JavaScript">
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Ejemplo HTML5" />
+    <meta name="keywords" content="HTML5, CSS3, JavaScript" />
 
     <title>Maquetación</title>
     <script src="modernizr.min.js"></script>
-<link rel="stylesheet" type="text/CSS" href="estilos/style.css">
-<link rel="stylesheet" type="text/CSS" href="estilos/StyleMenu.css">
-</head>
+    <link rel="stylesheet" type="text/css" href="estilos/estilos.css" />
+    <link rel="stylesheet" type="text/css" href="estilos/estilo.css" />
+  </head>
 
-<body>
-    <header>  
-        <section id="banner"><br><br><br>Mi Rinconcito Educativo Mx</section>  
-        <section id="logo"><img src="Imagenes/huejutla.png" height="120" width="240" alt="ITHUEJUTLA logo"></section>  
-        <section id="login"><img src="Imagenes/login.jpg" height="123" width="248"></section>  
-    </header>  
+  <body>
+    <header class="header">
+      <section id="banner">
+        <h1 class="header__title">Mi Rinconcito Educativo Mx</h1>
+      </section>
+      <div class="header__left">
+        <section id="logo">
+          <center>
+            <img src="/Imagenes/ITHUEJUTLA.png" height="150" width="250" />
+          </center>
+        </section>
+        <section id="login">
+          <center>
+            <img src="/Imagenes/login.jpg" height="123" width="248" />
+          </center>
+        </section>
+      </div>
+    </header>
 
-    </nav id="menu">
-    <ul id="boton"> 
-        <li><a href="#"> Home</a></li>
-        <li><a href="#"> ¿Quien Soy?</a></li>
-        <li><a href="#"> Mi Empresa</a></li>
-        <li><a href="#"> Carrito de Compras</a></li>
-        <li><a href="Formulario/Formulario.html"> Contacto</a></li>
-        <li><a href="#"> Mapa de sitio</a></li>
-    </ul> 
+    <nav id="menu">
+      <ul class="menu__list">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">¿Quién Soy?</a></li>
+        <li><a href="#">Mi empresa</a></li>
+        <li><a href="#">Carrito de Compras</a></li>
+        <li><a href="/Formulario/Formulario.html">Contacto</a></li>
+        <li><a href="#">Mapa de sitio</a></li>
+      </ul>
+    </nav>
 
-    </nav> 
-    <main>  
-        <aside id="left">
-            <nav id="menu2">
-                <ul id="menuvertical">
-                    <li><a href="Plantilla Web/index.html"> Plantilla</a></li>
-            <hr align="left" size="1" width="90%" noshade="0" />
-            <li><a href="Banco/Banco.html"> Banco</a></li>
-            <hr align="left" size="1" width="90%" noshade="0" />
-            <li><a href="Login/Login.html"> Login</a></li>
-            <hr align="left" size="1" width="90%" noshade="0" />
+    <main class="main">
+      <aside id="left">
+        <nav id="menu2">
+          <ul id="menuvertical">
+            <li><a href="Plantilla Web/index.html">Plantilla</a></li>
+            <li><a href="Banco/Banco.html">Banco</a></li>
+            <li><a href="Login/Login.html">Login</a></li>
+            <li><a href="MenuResposive/MenuResponsive.html">Menú 3D</a></li>
             <li>
-              <a href="MenuVerticalMul/MenuVerticalMul.html">
-                MenuVerticalMultinivel</a
+              <a href="/MenuVerticalMul/MenuVerticalMul.html"
+                >Menú Web Responsiva</a
               >
             </li>
-            <hr align="left" size="1" width="90%" noshade="0" />
-            <li><a href="Calculadora/Calculadora.html"> Calculadora</a></li>
-            <hr align="left" size="1" width="90%" noshade="0" />
-            <li><a href="Horario/tabla.html"> Horario</a></li>
-            <hr align="left" size="1" width="90%" noshade="0" />
-            <li>
-              <a href="Formulario de Coches/frmformulario.html">
-                Agencia Coches</a
-              >
-            </li>
-            <hr align="left" size="1" width="90%" noshade="0" />
-            <li>
-              <a href="MenuResposive/MenuResponsive.html">Menu 3D</a>
-              <ul class="submenu">
-                <li><a href="#">#practica1</a></li>
-                <li><a href="#">#practica2</a></li>
-              </ul>
-            </li>
-            <hr align="left" size="1" width="90%" noshade="0" />
+            <li><a href="Calculadora/Calculadora.html">Calculadora</a></li>
+            <li><a href="Animacion/Animacion.html">Animaciones</a></li>
             <li><a href="Responsive/Responsive.html">Responsive Design</a></li>
-            <hr align="left" size="1" width="90%" noshade="0" />
-            <li><a href="#"> Mi proyecto</a></li>
-            <hr align="left" size="1" width="90%" noshade="0" />
-                </ul>
-            </nav>
-            
-        </aside>  
-        <article>
-            <figure id="imagen">
-                <img src="Imagenes/foto.jpg" height="225" width="200" align="middle">
-            </figure>
-            <div id="presenta"><h1>Hola Joven<br></h1> Este portal es un ejemplo de lo que se pretende realizar durante la asignatura de programacion wed, he aqui donde enlazaran todas las actividades que se vayan realizando, espero que le dediquen tiempo y practiquen mucho para que se lo logren las competencias de apredizaje.<br><br>Les agradezco que siempre esten al pendiente de las clases</div>
-        </article> 
-        <aside id="right"></aside>   
-    </main> 
-    <footer id="pie">   
-        Derechos Reservados Copyright 2024-2025
+            <li>
+              <a href="Formulario de Coches/frmformulario.html"
+                >Agencia de autos</a
+              >
+            </li>
+            <li>
+              <a href="Manejo de graficos/manejo de graficos.html"
+                >Manejo de Gráficos</a
+              >
+            </li>
+            <li><a href="#">Mi proyecto</a></li>
+          </ul>
+        </nav>
+      </aside>
 
-    </footer> 
-    
-</body>
+      <article class="content">
+        <figure id="imagen">
+          <img src="/Imagenes/foto.jpg" height="200" width="160" />
+        </figure>
+        <div id="presenta">
+          <h3>Hola Jóvenes</h3>
+          <br />
+          <br />
+          <p>
+            Este portal es un ejemplo de lo que se pretende realizar durante la
+            Asignatura de Programación Web, he aquí donde enlazarán todas las
+            actividades que se vayan realizando. Espero que le dediquen tiempo y
+            practiquen mucho para que se logren la competencias de
+            aprendizaje.<br /><br />
+            Les agradezco que siempre estén al pendiente de las clases.
+          </p>
+        </div>
+      </article>
+
+      <aside id="right"></aside>
+    </main>
+
+    <footer id="pie">
+      <p>
+        <b>Derechos Reservados Copyright 2024-2025</b>
+      </p>
+    </footer>
+  </body>
 </html>
