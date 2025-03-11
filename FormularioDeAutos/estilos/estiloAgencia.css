@@ -1,0 +1,100 @@
+/* Centrar completamente el formulario en la pantalla */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000000;
+}
+
+/* Estilo del formulario */
+#registrouser {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: transparent url(/FormularioDeAutos/Imagenes/moderna.jpg) no-repeat center;
+    background-size: cover;
+    border: none;
+    color: #65ada0;
+    height: 665px;
+    width: 515px;
+    padding: 20px;
+    gap: 10px; /* Espaciado entre elementos */
+}
+
+/* Estilo del título */
+#registrouser legend {
+    background: transparent;
+    color: #00b392;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 21px;
+    letter-spacing: -1px;
+    padding-bottom: 20px;
+    padding-top: 8px;
+    text-transform: capitalize;
+}
+
+/* Estilo de los inputs */
+#registrouser input.texto {
+    background: #ffffff;
+    border: none !important;
+    color: #000000;
+    font-size: 14px;
+    height: 30px;
+    padding: 5px;
+    width: 250px;
+    font-family: Arial, sans-serif;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Estilo del textarea */
+#registrouser textarea.areadetexto {
+    background: #ffffff;
+    color: #fa6161;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    height: 150px;
+    width: 250px;
+    border: none !important;
+    border-radius: 5px;
+}
+
+/* Estilo de las etiquetas */
+#registrouser label {
+    display: block;
+    color: #e1ab17;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 5px 0;
+}
+
+/* Estilo del botón */
+#registrouser input.botonenviar {
+    background: transparent url(/FormularioDeAutos/Imagenes/francesco-ungaro-jqKS0ET-wGE-unsplash.jpg) no-repeat center;
+    background-size: cover;
+    color: #ffffff;
+    display: block;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    height: 35px;
+    width: 120px;
+    margin: 20px auto 0;
+    border: none !important;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+/* Efecto hover para el botón */
+#registrouser input.botonenviar:hover {
+    background-color: #00b392;
+    background-blend-mode: overlay;
+}
