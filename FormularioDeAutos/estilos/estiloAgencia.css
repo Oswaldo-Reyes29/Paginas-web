@@ -15,7 +15,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: transparent url(Imagenes/moderna.jpg) no-repeat center;
+    background: transparent url(/Imagenes/moderna.jpg) no-repeat center;
     background-size: cover;
     border: none;
     color: #65ada0;
