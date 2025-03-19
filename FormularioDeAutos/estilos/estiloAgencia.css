@@ -15,7 +15,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: transparent url(/Imagenes/moderna.jpg) no-repeat center;
+    background: transparent url(/Imagenes/fondoautos.jpg) no-repeat center;
     background-size: cover;
     border: none;
     color: #65ada0;
@@ -77,7 +77,7 @@ body {
 
 /* Estilo del botón */
 #registrouser input.botonenviar {
-    background: transparent url(/FormularioDeAutos/Imagenes/francesco-ungaro-jqKS0ET-wGE-unsplash.jpg) no-repeat center;
+    background: transparent url(/Imagenes/francesco.jpg) no-repeat center;
     background-size: cover;
     color: #ffffff;
     display: block;
